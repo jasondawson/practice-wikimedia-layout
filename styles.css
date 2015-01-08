@@ -1,19 +1,22 @@
 html, body {
 	background: rgb(100%, 100%, 100%);
-	width: 100%;
-	overflow-x: hidden;
+	width: 99%;
+	/*overflow-x: hidden;*/
 }
 
 .top {
 	margin-top: 30px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 15%;
+	margin-right: 0;
 	margin-bottom: 10px;
+	padding-right: 15%;
+	min-width: 500px;
+	max-width: 80%;
 	font-family: sans-serif;
 	font-size: 20px;
 	line-height: 150%;
 	text-align: justify;
-	text-align-last: right;
+	text-align-last: left;
 }
 
 .welcome {
@@ -25,6 +28,7 @@ html, body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 15px;
+	min-width: 600px;
 	display: flex;
 	width: 80%;
 	justify-content: space-around;
@@ -49,6 +53,8 @@ html, body {
 
 hr {
 	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 a:link {
